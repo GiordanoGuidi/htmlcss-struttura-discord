@@ -103,6 +103,7 @@ header{
     min-height: 600px;
     background-color: #23272A;
     display: flex;
+   margin-top: 10px;
 }
 
 .col-30w{
@@ -119,7 +120,12 @@ header{
 
 .col-25perc{
     min-width: 25%;
-    border: 3px dashed white;
+    border: 2px dashed white;
+}
+
+.footer.main-items-container{
+    border: 3px dashed black;
+    margin-top: 10px;
 }
 
 /*CONNECTION FOOTER*/
