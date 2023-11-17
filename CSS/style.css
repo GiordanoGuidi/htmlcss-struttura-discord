@@ -1,0 +1,33 @@
+/*CSS RESET*/
+
+*{
+    margin:o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Utils*/
+header{
+    min-height: 100px;
+    background-color: #ADD8E6;
+    display: flex;
+    justify-content:center;
+}
+
+.nav-bar{
+    min-width: 60%;
+    background-color: #DAA520;
+    display: flex;
+    margin: 20px 0px;
+}
+
+.logo-col{
+    min-width: 20%;
+    border: 2px dashed black;
+}
+
+.link-col{
+    min-width: 60%;
+    border: 2px dashed black;
+}
