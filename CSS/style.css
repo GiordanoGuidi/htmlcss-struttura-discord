@@ -25,27 +25,54 @@ header{
 
 /*Header*/
 .nav-bar{
-    min-width: 60%;
+    min-width: 70%;
     background-color: #DAA520;
     display: flex;
     margin: 20px 0px;
 }
 
-.logo-col{
+.col-logo{
     min-width: 20%;
     border: 2px dashed black;
 }
 
-.link-col{
+.col-link{
     min-width: 60%;
     border: 2px dashed black;
 }
 
 .jumbotron-item{
-    min-width: 60%;
+    min-width: 50%;
     min-height: 70%;
     background-color: #ED82EE;
     margin: 50px 0px;
     border: 2px dashed black;
 }
 
+/*Main*/
+
+.channels{
+    min-height: 500px;
+    display: flex;
+    margin: 40px 0px;
+    justify-content: center;
+}
+
+.main-items-container{
+    /* min-height: 500px; */
+    min-width: 70%;
+    /* border: 2px dashed black; */
+    display: flex;
+}
+
+.col-blue{
+    min-width: 60%;
+    border: 2px dashed black;
+    background-color: #1D91FF;
+}
+
+.col-pink{
+    min-width: 40%;
+    border: 2px dashed black;
+    background-color: #FFC0CB;
+}
