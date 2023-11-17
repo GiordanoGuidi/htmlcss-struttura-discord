@@ -59,7 +59,6 @@ header{
     margin: 50px 0px;
     border: 2px dashed black;
 }
-
 /*Main*/
 /*SectionChannels*/
 
@@ -74,16 +73,16 @@ header{
     border: 2px dashed black;
     background-color: #FFC0CB;
 }
-
+/*SECONDA SEZIONE*/
 .section-container.gray{
     background-color: #D3D3D3; 
 }
 
+/*QUARTA SEZIONE*/
 .section-container.gray.big{
     min-height: 1000px;
 }
     
-
 .container-big-gray{
     min-height: 1000px;
     background-color: #D3D3D3;
@@ -99,14 +98,56 @@ header{
 }
 
 /*FOOTER*/
-
+/*INFO FOOTER*/
 .section-container.info-footer{
     min-height: 600px;
     background-color: #23272A;
     display: flex;
 }
 
-.footer.main-items-container{
-
+.col-30w{
+    min-width: 30%;
+    background-color: #F08080;
+    border: 3px dashed black;
 }
 
+.col-70w{
+    min-width: 70%;
+    background-color: #20B2AA;
+    display: flex;
+}
+
+.col-25perc{
+    min-width: 25%;
+    border: 3px dashed white;
+}
+
+/*CONNECTION FOOTER*/
+.connections{
+    background-color: #23272A;
+    min-height: 120px;
+    border-bottom: 3px solid gray;
+    border-top: 3px solid gray;
+    display: flex;
+    justify-content: center;
+}
+
+.input-bar{
+    min-width: 70%;
+    background-color: #80FFD4;
+    align-items: flex-end;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    justify-content: space-between;
+}
+
+.card-logo,
+.card-button{
+    min-width: 70px;
+    background-color: #FFB6C1;
+    border: 2px dashed black;
+    padding: 5px;
+    font-size: 1.2rem ;
+    }
