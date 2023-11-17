@@ -50,8 +50,8 @@ header{
 }
 
 /*Main*/
-
-.channels{
+/*SectionChannels*/
+.section-container{
     min-height: 500px;
     display: flex;
     margin: 40px 0px;
@@ -59,9 +59,7 @@ header{
 }
 
 .main-items-container{
-    /* min-height: 500px; */
     min-width: 70%;
-    /* border: 2px dashed black; */
     display: flex;
 }
 
@@ -76,3 +74,10 @@ header{
     border: 2px dashed black;
     background-color: #FFC0CB;
 }
+
+.section-container.gray{
+    background-color: #D3D3D3;
+
+}
+
+
