@@ -1,7 +1,7 @@
 /*CSS RESET*/
 
 *{
-    margin:o;
+    margin:0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -15,6 +15,15 @@ header{
     justify-content:center;
 }
 
+.jumbotron{
+    min-height: 500px;
+    background-color: #00068B;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Header*/
 .nav-bar{
     min-width: 60%;
     background-color: #DAA520;
@@ -31,3 +40,12 @@ header{
     min-width: 60%;
     border: 2px dashed black;
 }
+
+.jumbotron-item{
+    min-width: 60%;
+    min-height: 70%;
+    background-color: #ED82EE;
+    margin: 50px 0px;
+    border: 2px dashed black;
+}
+
